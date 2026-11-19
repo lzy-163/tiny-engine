@@ -2,9 +2,9 @@ name: Push And Create PR Check
 
 on:
   push:
-    branches: []
+    branches: [develop, main, refactor/develop]
   pull_request:
-    branches: [develop,main, refactor/develop]
+    branches: [develop, main, refactor/develop]
 
 jobs:
   push-check:
